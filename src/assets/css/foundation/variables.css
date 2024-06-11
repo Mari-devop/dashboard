@@ -1,0 +1,20 @@
+:root {
+    --db-main-bg-color: #FFFFFF;
+    --db-main-text-color: #292D32;
+    --db-main-header-color: #000000;
+    --db-secodary-text-color: #B5B7C0;
+    --db-main-small-text-color: #838383;
+    --db-main-text-color-sidebar: #9197B3;
+    --dp-main-title-color: #9197B3;
+    --db-accent-color: #16C098;
+    --db-main-text-hover-color: #5932EA;
+    --db-main-input-color: #F9FBFF;
+    --db-divider-color: #EEEEEE;
+    --db-button-icon-color: #F5F5F5;
+    --db-inactive-text-color: #DF0404;
+    --db-inactive-bg-color: #FFC5C5;
+    --db-inactive-border-color: #DF0404;
+    --db-active-text-color: #008767;
+    --db-active-bg-color: #00b0876c;
+    --db-active-border-color: #008767;
+}

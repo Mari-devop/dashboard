@@ -1,0 +1,48 @@
+@import url('../foundation/variables.css');
+
+.db-table-container {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.db-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px; 
+}
+.db-table__header {
+    color: var(--db-secodary-text-color);
+    font-size: 14px;
+}
+.db-table__header-items th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--db-divider-color);
+}
+.db-table__body tr:hover {
+    background-color: var(--db-divider-color);
+}
+.db-table__body td {
+    padding: 15px;
+    border-bottom: 1px solid var(--db-divider-color);
+    color: var(--db-main-text-color);
+    font-size: 14px;
+}
+.db-table__body td span.status {
+    display: inline-block;
+    padding: 5px 10px;
+    width: 80px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+}
+.db-table__body td span.status.active {
+    background-color: var(--db-active-bg-color);
+    border: 1px solid var(--db-active-border-color);
+    color: var(--db-active-text-color);
+}
+.db-table__body td span.status.inactive {
+    background-color: var(--db-inactive-bg-color);
+    border: 1px solid var(--db-inactive-border-color);
+    color: var(--db-inactive-text-color);
+}
